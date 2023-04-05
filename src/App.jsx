@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import PokemonCard from "./components/PokemonCard"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
 
     <div>
-      <h1>Hello React</h1>
+      <PokemonCard/>
     </div>
   )
 }
